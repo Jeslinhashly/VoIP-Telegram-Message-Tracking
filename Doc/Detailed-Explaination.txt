@@ -1,0 +1,31 @@
+The code is a Python program that allows the user to analyze a PCAP file and generate a PDF report containing different types of information about the network traffic captured in the file. The program uses a GUI (Graphical User Interface) framework called ct (Customizable tkinter) to create the user interface.
+
+The program consists of several functions and classes:
+
+App class: This is the main class that creates the GUI and sets up the different frames of the application. It inherits from the ct.CTkApp class.
+
+open_pcap function: This function is called when the user clicks the "Open" button to select a PCAP file for analysis. It uses the filedialog module from the tkinter library to display a file selection dialog box and return the path of the selected file.
+
+home_button_event, frame_2_button_event, and frame_3_button_event functions: These functions are called when the user clicks on one of the buttons in the GUI to switch between different frames of the application.
+
+change_appearance_mode_event function: This function is called when the user selects a different appearance mode for the GUI. It uses the ct.set_appearance_mode function to change the appearance mode to the selected mode.
+
+run function: This function is called when the user clicks the "Generate report" button. It takes the path of the PCAP file as an argument and generates a PDF report based on the user's selected options.
+
+VoipPacketAnalyzer class: This is a helper class that provides methods to analyze the SIP packets in the PCAP file and extract different types of information from them.
+
+checkbox_event function: This function is called when the user toggles one of the checkboxes in the GUI to select which types of information to include in the report.
+
+The main functionality of the program is implemented in the run function, which generates a PDF report based on the user's selected options. The report can include four types of information:
+
+TCP/UDP report: This report provides statistics about the number of TCP and UDP packets in the PCAP file, as well as the top 10 source and destination IP addresses and ports.
+
+VoIP packet composition report: This report provides statistics about the types of VoIP packets in the PCAP file, including INVITE, BYE, REGISTER, and other types.
+
+SIP packet data report: This report provides detailed information about the SIP packets in the PCAP file, including the source and destination IP addresses and ports, call ID, packet length, and SIP headers.
+
+Duration of the call report: This report analyzes the INVITE and BYE packets in the PCAP file to determine the duration of each call.
+
+The program uses several Python modules to implement its functionality, including tkinter, ct, pyshark, matplotlib, fpdf, and PyPDF2. These modules provide different capabilities for creating the GUI, reading and analyzing PCAP files, generating charts and PDF reports, and more.
+
+Overall, the program provides a convenient and user-friendly wa
