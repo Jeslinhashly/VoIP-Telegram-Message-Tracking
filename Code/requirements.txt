@@ -1,0 +1,11 @@
+tkinter
+customtkinter
+PyPDF2
+pyshark
+matplotlib
+numpy
+fpdf
+pydub
+speech_recognition
+os
+PIL
