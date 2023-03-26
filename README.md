@@ -6,12 +6,9 @@ The VoIP Telegram-Message-Tracking is a software application that allows users t
 
 ## Getting Started
 
-1.Clone the repository: 'git clone https://github.com/jeslinhashly/VOIP-Message-Tracking.git'
-
-2.Install the required Python packages: `pip3 install -r requirements.txt`
-
-3.Run the tool: `python3 software.py`
-
+1. Clone the repository: `git clone https://github.com/jeslinhashly/voip-Message-Tracking.git`
+2. Install the required Python packages: `pip3 install -r requirements.txt`
+3. Run the tool: `python3 voip_packet_analysis_tool.py`
 ### Features
 
 The software dynamically analyzes the packets using modules like pyshark after we upload the packet to it. An interface will be provided where users can upload a VoIP packet with the case number. This capture would be analyzed by using the python modules (pyshark) for deeper analysis. The analyzed data would be presented in a report format either graphically or analytically readable. Also, the analyzed data can be downloaded in a pdf format that embeds picharts.
