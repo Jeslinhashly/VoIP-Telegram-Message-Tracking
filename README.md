@@ -39,17 +39,17 @@ This tool has been tested on Windows, macOS, and Linux. However, it should work 
 
 ## Dependencies
 
-tkinter
-customtkinter
-PyPDF2
-pyshark
-matplotlib
-numpy
-fpdf
-pydub
-speech_recognition
-os
-PIL
+- tkinter
+- customtkinter
+- PyPDF2
+- pyshark
+- matplotlib
+- numpy
+- fpdf
+- pydub
+- speech_recognition
+- os
+- PIL
 
 ## Acknowledgments
 
