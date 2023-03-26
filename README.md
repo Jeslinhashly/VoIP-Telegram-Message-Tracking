@@ -24,6 +24,11 @@ To use the VoIP Packet Analysis Tool, follow these steps:
 
 ### Report Generation Pages
 
+- TCP/UDP Report
+- VoIP Packet Composition Report
+- SIP/RTP Packet Data Report
+- Duration of the Call Report
+- 
 
 
 
