@@ -6,11 +6,11 @@ The VoIP Telegram-Message-Tracking is a software application that allows users t
 
 ## Getting Started
 
-Clone the repository: `git clone https://github.com/Jeslinhashly/VOIP-Telegram-Message-Tracking.git
+1.Clone the repository: `git clone https://github.com/Jeslinhashly/VOIP-Telegram-Message-Tracking.git'
 
-Install the required Python packages: `pip3 install -r requirements.txt`
+2.Install the required Python packages: `pip3 install -r requirements.txt`
 
-Run the tool: `python3 software.py`
+3.Run the tool: `python3 software.py`
 
 ### Features
 
