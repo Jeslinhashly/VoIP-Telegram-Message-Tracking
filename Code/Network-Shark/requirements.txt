@@ -1,1 +1,15 @@
-
+secrets
+tkinter
+customtkinter
+PyPDF2
+pyshark
+matplotlib
+numpy
+fpdf
+os
+PIL
+tkintermapview
+Crypto
+base64
+ip2geotools
+geopy
