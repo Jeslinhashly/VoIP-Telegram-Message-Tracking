@@ -4,17 +4,6 @@
 Please note that this is **NOT** a "one click" image logger. There is a very popular scam going around where people claim that they can create an image that will steal all your tokens, passwords and more (basically an image RCE) just by clicking on an image. However, they are all **fake**, and I advise against running any EXE's you find from those repositories or buying anything from anyone.
 
 
-# Table of Contents
-* [Introduction](#-discord-image-logger) <br>
-* [Features](#-features) <br>
-* [Configuration](#-configuration) <br>
-* [Setup](#%EF%B8%8F-setup) <br>
-* [Video Tutorial](https://www.youtube.com/watch?v=rFbiW2x4HEw) <br>
-* [Bug Reports & Suggestions](#-bug-reports--suggestions) <br>
-* [Closing Statements](#-closing-statements) <br>
-
----
-
 # Configuration
 
 
