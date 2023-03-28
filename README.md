@@ -43,7 +43,7 @@ To use the VoIP Packet Analysis Tool, follow these steps:
 
 ## Supported Platforms
 
-This tool has been tested on Windows, macOS, and Linux. However, it should work on any platform that supports Python 3 and the required Python packages.
+This tool has been tested on Unix and Linux.
 
 ## Dependencies
 
