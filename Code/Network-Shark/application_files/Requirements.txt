@@ -1,0 +1,14 @@
+tkinter
+customtkinter
+PyPDF2
+secrets
+pyshark
+matplotlib
+numpy
+fpdf
+pydub
+speech_recognition
+os
+PIL
+tkintermapview
+base64
