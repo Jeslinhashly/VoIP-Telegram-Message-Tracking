@@ -70,6 +70,9 @@ This tool has been tested on Windows, macOS, and Linux. However, it should work 
 - [matplotlib](https://github.com/matplotlib/matplotlib) - a plotting library used to generate charts for the VoIP Packet Composition Report.
 - [FPDF](https://pyfpdf.readthedocs.io/en/latest/) - a library used to generate PDF reports.
 - [PyPDF2](https://pythonhosted.org/PyPDF2/) - a library used to merge PDF reports.
+- [Geopy](https://pypi.org/project/geopy/) - a Python client for several popular geocoding web services.
+- [Tkinter](https://docs.python.org/3/library/tkinter.html) - a  standard GUI library for Python.
+- [Numpy](https://numpy.org/doc/stable/) - to perform a wide variety of mathematical operations on arrays
 
 
 ### Conclusion
