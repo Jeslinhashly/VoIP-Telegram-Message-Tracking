@@ -48,20 +48,7 @@ This tool has been tested on Windows, macOS, and Linux. However, it should work 
 ## Dependencies
 
 -secrets
--tkinter
--customtkinter
--PyPDF2
--pyshark
--matplotlib
--numpy
--fpdf
--os
--PIL
--tkintermapview
--Crypto
--base64
--ip2geotools
--geopy
+
 
 ## Acknowledgments
 
