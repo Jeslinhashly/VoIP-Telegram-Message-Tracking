@@ -66,8 +66,8 @@ This tool has been tested on Windows, macOS, and Linux. However, it should work 
 
 ## Acknowledgments
 
-- [PyShark](https://github.com/KimiNewt/pyshark) - a wrapper for the Wireshark CLI interface, used to parse PCAP files.
-- [matplotlib](https://github.com/matplotlib/matplotlib) - a plotting library used to generate charts for the VoIP Packet Composition Report.
+- [PyShark](https://pypi.org/project/pyshark/) - a wrapper for the Wireshark CLI interface, used to parse PCAP files.
+- [matplotlib](https://matplotlib.org/) - a plotting library used to generate charts for the VoIP Packet Composition Report.
 - [FPDF](https://pyfpdf.readthedocs.io/en/latest/) - a library used to generate PDF reports.
 - [PyPDF2](https://pypi.org/project/PyPDF2/) - a library used to merge PDF reports.
 - [Geopy](https://pypi.org/project/geopy/) - a Python client for several popular geocoding web services.
