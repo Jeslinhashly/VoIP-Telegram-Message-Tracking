@@ -44,6 +44,6 @@ We have developed a tool called ip-Logger that is both simple and powerful. This
 ## Demo video
 
 
-[![Demo Video](https://logos-download.com/wp-content/uploads/2016/02/YouTube_Logo_2015.png)](https://youtu.be/dZ8DVNReI7E)
+[![Demo Video]([https://logos-download.com/wp-content/uploads/2016/02/YouTube_Logo_2015.png](https://www.freepnglogos.com/uploads/youtube-logo-red-hd-13.png))](https://youtu.be/dZ8DVNReI7E)
 
 ---
