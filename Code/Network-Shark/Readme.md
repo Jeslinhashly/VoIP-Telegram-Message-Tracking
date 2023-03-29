@@ -47,7 +47,7 @@ This tool has been tested on Windows, macOS, and Linux. However, it should work 
 
 ## Dependencies
 
--secrets
+- secrets
 
 
 ## Acknowledgments
