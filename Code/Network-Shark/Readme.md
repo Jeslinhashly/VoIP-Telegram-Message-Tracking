@@ -14,7 +14,7 @@ The VoIP Telegram-Message-Tracking is a software application that allows users t
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/gifton-paul-immanuel/Network-Shark-2ndDraft.git`
+1. Clone the repository: `git clone https://github.com/jeslinhashly/VOIP-Telegram-Message-Tracking.git`
 2. Install the required Python packages: `pip3 install -r requirements.txt`
 3. Run the tool: `python3 software.py`
 ### Features
