@@ -3,9 +3,11 @@ tkinter
 customtkinter
 PyPDF2
 pyshark
+pycryptodome
 matplotlib
 numpy
 fpdf
+fpdf2
 os
 PIL
 tkintermapview
