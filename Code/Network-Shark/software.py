@@ -46,7 +46,7 @@ def login():
     frame = ct.CTkFrame(master=login_window)
     frame.pack(pady=20,padx=60,fill="both",expand=True)
     logo_image = ct.CTkImage(Image.open(os.path.join(image_path, "tnpl.png")), size=(26, 26))
-    label = ct.CTkLabel(frame, text="  TN Police", image=logo_image,compound="left", font=ct.CTkFont(size=15, weight="bold"))
+    label = ct.CTkLabel(frame, text="  Network Shark", image=logo_image,compound="left", font=ct.CTkFont(size=15, weight="bold"))
     label.pack(pady=12,padx=10)
     username_entry = ct.CTkEntry(master=frame,placeholder_text="Username")
     username_entry.pack(pady=12,padx=10)
@@ -91,7 +91,7 @@ class App(ct.CTk):
         self.navigation_frame.grid(row=0, column=0, sticky="nsew")
         self.navigation_frame.grid_rowconfigure(7, weight=1)
 
-        self.navigation_frame_label = ct.CTkLabel(self.navigation_frame, text="  TN Police", image=self.logo_image,
+        self.navigation_frame_label = ct.CTkLabel(self.navigation_frame, text="  Network Shark", image=self.logo_image,
                                                              compound="left", font=ct.CTkFont(size=15, weight="bold"))
         self.navigation_frame_label.grid(row=0, column=0, padx=20, pady=20)
 
@@ -585,7 +585,7 @@ class App(ct.CTk):
                                 success_label = ct.CTkLabel(master=dest_window,text="")
                                 success_label.grid(row=2,column=0,padx=20,pady=10) 
                                 try:
-                                    os.system(f"mv {rand}.pcap {directory}/decrypted_srtp_capture.pcap")
+                                    os.system(f"mv cache_files/{rand}.pcap {directory}/decrypted_srtp_capture.pcap")
                                     success_label.configure(text="File saved in the destination")
                                     dest_window.lift()
                                     ok = ct.CTkButton(master=dest_window,text="Ok",command=lambda: dest_window.destroy())
